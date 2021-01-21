@@ -1,0 +1,10 @@
+.container{
+    background-color: chocolate;
+    display: inline-flex;
+    /* display: flex; */
+}
+
+
+.item{
+    background-color: aquamarine;
+}

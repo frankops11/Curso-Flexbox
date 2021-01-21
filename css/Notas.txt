@@ -1,0 +1,18 @@
+CONCEPTOS DE FLEXBOX
+
+Flexbox CSS es un sistema de maquetación unidimensional, pensado principalmente para el acomodo interno de los elementos, componentes y/o widgets de una interfaz de usuario. A la hora de utilizarlo dispondremos de filas y columnas, pero solo podemos hacer uso de una a la vez, es decir no ambas al mismo tiempo.
+
+
+Flexbox tiene 14 propiedades CSS:
+    - 8 que aplican al contenedor padre
+    - 6 que aplican a los elementos hijos
+
+A nivel de CSS, el contenedor padre se conoce como flex-container y sus hijos flex-items.
+
+
+En flexbox tenemos 2 ejes, el principal(Eje X) llamado main axis y el eje secundario( Eje Y ) llamado Cross axis y siempre sera asi por defecto. Sin embargo en Css disponemos de una propiedad que nos vas a permitir cambiar el sentido de dirección de los ejes antes mencionados.
+
+
+PROPIEDADES DEL CONTENEDOR PADRE
+
+1.- display: define que una caja será flexbox de bloque o flexbox de línea. Estos define dependiendo de la opcion css que se aplica, las cuales son 2: "flex" e "inline-flex"
